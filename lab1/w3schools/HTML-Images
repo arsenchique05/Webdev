@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+  <title>hey!</title>
+</head>
+<body>
+  <h1>Floating Images Example</h1>
+
+  <p>
+    <img src="smiley.gif" alt="Smiley face" style="float:right;width:42px;height:42px;">
+    This smiley image floats to the right of the text. You can add more content here to see how the text wraps around the image. Floating images is a simple way to create visually appealing layouts.
+  </p>
+
+  <p>
+    <img src="smiley.gif" alt="Smiley face" style="float:left;width:42px;height:42px;">
+    This smiley image floats to the left of the text. Notice how the text adjusts and flows around the image automatically. Experiment with different float styles for creative designs.
+  </p>
+</body>
+</html>
