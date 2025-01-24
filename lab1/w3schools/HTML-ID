@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Hello  HTML</title>
+</head>
+<body>
+    <header id="header" class="header">
+        <h1 class="title">Welcome</h1>
+    </header>
+    <main id="main" class="content">
+        <section id="about" class="section">
+            <h2 class="subtitle">About</h2>
+            <p class="text">This is a simple HTML page.</p>
+        </section>
+    </main>
+    <footer id="footer" class="footer">
+        <p class="text"> hey!</p>
+    </footer>
+</body>
+</html>
