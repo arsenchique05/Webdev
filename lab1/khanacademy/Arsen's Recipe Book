@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project: Recipe Book</title>
+        <meta charset="utf-8">
+        <style>
+        h1 { 
+            color: green;
+        }
+        #recipe1, #recipe2, #recipe3 {
+            background-color: yellow;
+        }
+        </style>
+    </head>
+    <body>
+        <h1>Arsen's Recipe Book</h1>
+        
+        <h2>Contents:</h2>
+        <ol>
+            <li><a href="#lasagna">Recipe #1</a></li>
+            <li><a href="#pancakes">Recipe #2</a></li>
+            <li><a href="#smoothie">Recipe #3</a></li>
+        </ol>
+        
+        <h2 id="lasagna">Recipe #1: Lasagna</h2>
+        <ul id="recipe1">
+            <li>Time: 2 hours</li>
+            <li>Serves: 5</li>
+        </ul>
+        <img src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/food/pasta.png" width="150">
+        <table>
+            <thead>
+                <tr>
+                    <th>Ingredients</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Tomato paste</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>Ground beef</td>
+                    <td>500g</td>
+                </tr>
+            </tbody>
+        </table>
+        <p><strong>Step 1:</strong> Cook ground beef.</p>
+        <p><strong>Step 2:</strong> Add tomato paste.</p>
+        <p><strong>Step 3:</strong> Mix it with spaghetti, and that's it!</p>
+        <p><a href="#top">Back to top</a></p>
+        
+        <h2 id="pancakes">Recipe #2: Pancakes</h2>
+        <ul id="recipe2">
+            <li>Time: 20 minutes</li>
+            <li>Serves: 4</li>
+        </ul>
+        <img src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/food/pancakes.png" width="150">
+        <table>
+            <thead>
+                <tr>
+                    <th>Ingredients</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Flour</td>
+                    <td>1 cup</td>
+                </tr>
+                <tr>
+                    <td>Milk</td>
+                    <td>1 cup</td>
+                </tr>
+            </tbody>
+        </table>
+        <p><strong>Step 1:</strong> Mix flour and milk in a bowl.</p>
+        <p><strong>Step 2:</strong> Heat a pan and pour the batter.</p>
+        <p><strong>Step 3:</strong> Cook each side until golden brown.</p>
+        <p><a href="#top">Back to top</a></p>
+        
+        <h2 id="smoothie">Recipe #3: Smoothie</h2>
+        <ul id="recipe3">
+            <li>Time: 10 minutes</li>
+            <li>Serves: 2</li>
+        </ul>
+        <img src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/food/smoothie.png" width="150">
+        <table>
+            <thead>
+                <tr>
+                    <th>Ingredients</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Banana</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>Milk</td>
+                    <td>1 cup</td>
+                </tr>
+                <tr>
+                    <td>Honey</td>
+                    <td>1 tbsp</td>
+                </tr>
+            </tbody>
+        </table>
+        <p><strong>Step 1:</strong> Add banana, milk, and honey to a blender.</p>
+        <p><strong>Step 2:</strong> Blend until smooth.</p>
+        <p><strong>Step 3:</strong> Pour into a glass and enjoy!</p>
+        <p><a href="#top">Back to top</a></p>
+
+        <p><em>Source: <a href="https://youtube.com">Some recipe websites</a></em></p>
+    </body>
+</html>
