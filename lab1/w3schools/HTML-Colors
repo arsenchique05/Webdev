@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h1 { 
+ color:tomato;
+ border:5px solid tomato
+}
+#paragraph{
+color: green;
+border:5px solid green;
+} 
+  </style>
+  </head>
+    <body>
+       <h1> some heading </h1>
+      <p id="paragraph"> lets imagine that something is written here </p>
+    </body>
+</html>
