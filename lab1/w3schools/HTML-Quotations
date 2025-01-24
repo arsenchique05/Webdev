@@ -1,1 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h4>Welcome to Nature's Wonders</h4>
+        <p><del>Earth's</del> mission is to preserve the <strong>diversity</strong> of <em>our</em> planet's natural <mark>resources.</mark> CO<sub>2</sub></p>
+        <p>
+            Nature is so <q>inspiring</q>
+        </p>
+        
+        <p>
+        The <abbr title="United Nations Educational, Scientific and Cultural Organization">
+        UNESCO</abbr> was established to foster global peace and development.    
+        </p>
+        <h1>Protecting Our Planet</h1>
+        
+        <p style="color:rgb(34,139,34)">This is a green paragraph.</p>
+    </body>
+</html>
 
