@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <title>Webpractice</title>
+ <style>
+  ul {
+   color:green; 
+}
+
+  </style>
+  
+</head>
+  <p> things to do: </p>
+ <ul>
+<li> hey </li>
+   <li> siu </li>
+  </ul>
+
+   <p> world's most popular cities: </p>
+    <ol>
+      <li> New-York </li>
+      <li> Paris </li>
+      <li> London </li>
+  </ol>
+<body>
+
+</body>
