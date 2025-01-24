@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Link Styling with ID</title>
+  <style>
+    a:link{
+    color:green;
+ }
+ a:hover {
+    color:red;
+}
+a:active{
+color:blue;
+}
+#special:link {
+color:blue;
+}
+#special:hover{
+color:purple;
+}
+    </style>
+
+<body>
+  <a href="youtube.com"> This is a link bro</a>
+   <br>
+     <a id="special" href="harvard.com"> Harvard uni website</a>
+     <h3 id="reference"> wanna jump to the reference?</h3>
+     <a href="#reference"> here is the link! </a>
+</body>
+
+
+</html>
