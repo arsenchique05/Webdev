@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <title>Using Div and Span</title>
+  <style>
+    .container {
+      border: 2px solid black;
+      padding: 10px;
+      margin: 10px 0;
+    }
+    .highlight {
+      color: blue;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Using Div and Span</h1>
+    <p>This is a paragraph inside a <span class="highlight">div container</span>.</p>
+  </div>
+
+  
+  <div class="container">
+    <p>This is another <span class="highlight">example</span> with div and span.</p>
+  </div>
+</body>
+</html>
