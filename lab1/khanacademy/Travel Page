@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Travel webpage</title>
+        <style>
+        
+          #football{
+              color:green;
+          }
+        </style>
+    </head>
+    <body>
+    
+        <h1>Travel to Barcelona</h1>
+        <p> Ever wondered how it's like to travel to barcelona? Lets dive into it! </p>
+    <img src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/landscapes/clouds-from-plane.png"alt="average view from plane" width="200">
+    <p> here is the view when you are travelling to <em> Barcelona!</em> </p>
+    <h2> Fotball one love:</h2>
+    <img src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/landscapes/fields-of-wine.png" alt='football field'width="200">
+    <p>Spain is prominent for its love for <strong> <span id="football">football</span></strong> </p>
+    <img src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/landscapes/lake.png"alt="some field"width="200">
+    </body>
+</html>
