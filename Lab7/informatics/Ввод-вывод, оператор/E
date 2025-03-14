@@ -1,0 +1,9 @@
+
+v = int(input())
+t = int(input())
+
+MKAD_LENGTH = 109
+
+final_position = ((v * t) % MKAD_LENGTH + MKAD_LENGTH) % MKAD_LENGTH
+
+print(final_position)
