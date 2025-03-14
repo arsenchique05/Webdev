@@ -1,0 +1,6 @@
+
+num = int(input())
+num1 = num + 1
+minusnum = num - 1
+print(f"The next number for the number {num} is {num1}.")
+print(f"The previous number for the number {num} is {minusnum}.")
