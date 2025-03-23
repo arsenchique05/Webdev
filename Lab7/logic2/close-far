@@ -1,0 +1,8 @@
+def close_far(a, b, c):
+    close = lambda x: abs(a - x) <= 1
+    far = lambda x, y: abs(a - x) >= 2 and abs(y - x) >= 2
+    
+    return (close(b) and far(c, b)) or (close(c) and far(b, c))
+print(close_far(1, 2, 10))  # True
+print(close_far(1, 2, 3))   # False
+print(close_far(4, 1, 3))   # True
