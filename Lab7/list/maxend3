@@ -1,0 +1,3 @@
+def max_end3(nums):
+    max_val = max(nums[0], nums[-1])  # Find the larger of the first or last element
+    return [max_val] * 3  # Create a new list with all elements set to max_val
