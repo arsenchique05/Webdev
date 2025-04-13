@@ -1,0 +1,29 @@
+<h1>Companies</h1>
+
+<fieldset>
+  <label>Company name</label><br>
+  <input type="text" [(ngModel)]="newName"><br>
+  <label>Company description</label><br>
+  <input type="text" [(ngModel)]="newDescription"><br>
+  <label>Company city</label><br>
+  <input type="text" [(ngModel)]="newCity"><br>
+  <label>Company address</label><br>
+  <input type="text" [(ngModel)]="newAddress"><br>
+  <button (click) = "addCompany()">Add Company</button>
+</fieldset>
+
+
+<ul>
+  <li *ngFor="let company of companies" >
+    <p (click)="getVacancies(company.id)"> {{company.id}}) {{company.name}} - {{company.description}}</p>
+    <button (click)="deleteCompany(company.id)">Delete</button>
+  </li>
+</ul>
+
+
+<h1>Vacancies</h1>
+<ul>
+  <li *ngFor="let vacancy of vacancies">
+    {{vacancy.name}} - {{vacancy.description}}
+  </li>
+</ul>
